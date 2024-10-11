@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar and Sidebar Layout</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div class="Navbar">
+        <h2>INTEGRA <span class="normal-font-weight">CMS</span></h2>
+        <h4>machine activity status&utilization weighbridge</h4>
+        <div class="info-container">
+            <div>Last Updated: 09/06/2024</div>
+            <div>UTC: 09/06/2024</div>
+        </div>
+        <div class="loop-icon">⟳</div>
+        <button class="add-ticket-button">+ Create Ticket</button>
+        <div class="user">
+            <div class="usernames">
+                <div class="username">Suman midde</div>
+                <div class="username-desg">Admin</div>
+            </div>
+            <div class="profile">SM</div>
+        </div>
+    </div>
+    <!-- side bar -->
+    <div class="sidebar">
+        <div class="sidebar-back-button">⬅</div>
+        <div class="sidebar-menu">☰</div>
+        <div class="sidebar-item">🚋</div>
+        <div class="sidebar-item">🚇</div>
+        <div class="sidebar-item">🔔</div>
+        <div class="sidebar-item">📊</div>
+        <div class="sidebar-item">🎯</div>
+        <div class="sidebar-item">📈</div>
+    </div>
+    <!-- Ticket Summary Sidebar -->
+    <div id="ticket-summary-sidebar" class="ticket-summary-sidebar">
+        <div class="ticket-summary-content">
+            <div class="ticket-summary-title">Ticket Summary</div>
+            <button class="ticket-summary-count">15</button>
+        </div>
+    </div>
+    <div id="details-sidebar" class="details-sidebar">
+        <div class="details-content">
+            <div class="details-item">
+                <div class="details-count">10</div>
+                <div>Alarms</div>
+            </div>
+            <div class="details-item">
+                <div class="details-count">45</div>
+                <div>Alerts</div>
+            </div>
+            <div class="details-item">
+                <div class="details-count">33</div>
+                <div>Events</div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="main-heading">Status and Utilization</h1>
+    <div class="main-data">
+        <div class="main-data-items1">
+            <ul class="list">
+                <li class="items">TCMS</li>
+                <li class="items">UFMS</li>
+                <li class="items">WEIGHBRIDGE</li>
+                <li class="items">TWP</li>
+                <li class="items">SIMULATOR</li>
+            </ul>
+        </div>
+        <div class="main-data-items"></div>
+    </div>
+
+
+
+
+
+    <div class="body-container">
+        <div class="block">
+            <div class="inside">
+                <div> Weight Bridge</div>
+                <div class="head-image">
+                    <img src="trian.jpg" alt="img" class="train">
+                </div>
+                <div class="grid-item">
+                    <table class="reset-table">
+                        <thead>
+                            <tr>
+                                <th>AAE code</th>
+                                <th>Description</th>
+                                <th>Reset</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>6</td>
+                                <td>Event A</td>
+                                <td>10:00 AM</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Event B</td>
+                                <td>12:30 PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="block">Utilisation Hours VS chart count</div>
+        <div class="grid-item">
+            <table class="info-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>S.No</th>
+                        <th>Description</th>
+                        <th>Date Released</th>
+                        <th>Priority</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>050071</td>
+                        <td>Train A</td>
+                        <td>2024-01-01</td>
+                        <td>High</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td>200767</td>
+                        <td>Train B</td>
+                        <td>2024-02-15</td>
+                        <td>Medium</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <td>078743</td>
+                        <td>Train C</td>
+                        <td>2024-03-22</td>
+                        <td>Low</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td>064544</td>
+                        <td>Train D</td>
+                        <td>2024-04-10</td>
+                        <td>High</td>
+                        <td>Inactive</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grid-item">
+            <table class="reset-table">
+                <thead>
+                    <tr>
+                        <th>AAE code</th>
+                        <th>Description</th>
+                        <th>Reset</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6</td>
+                        <td>Event A</td>
+                        <td>10:00 AM</td>
+                        <td>2 hours</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Event B</td>
+                        <td>12:30 PM</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Event C</td>
+                        <td>03:00 PM</td>
+                        <td>30 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Event D</td>
+                        <td>05:15 PM</td>
+                        <td>45 minutes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
